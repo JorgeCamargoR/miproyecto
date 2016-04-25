@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+   <head>
+
+   <meta charset="UTF-8">
+   <title>Juego del ahorcado</title>
+   <style>
+     body{
+     	text-align: center;
+     }
+       
+     
+   </style>
+   <script type="text/javascript" src="ahorcado.js"></script>
+
+   	
+   </head>
+
+   <body>
+   <h1>Juego del ahorcado!</h1>
+   <h2>Adivina la letra</h2>
+
+   <canvas id="c" width="300" height="300"></canvas>
+
+   <div>
+   <input type="text" id="letra" onfocus>
+   <input type="button" value="EnviarLetra" id="boton">
+   	
+   	<h5>La palabra es:</h5>
+   	<p id="pista">_ _ _ _ _ _ _ _ _ </p>
+   	</div>
+   	<script type="text/javascript">
+   		inicio();
+   	</script>
+    
+   </body>
+
+</html>
